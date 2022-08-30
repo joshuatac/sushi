@@ -588,3 +588,30 @@ padding: 15px;
     width: 90px;
 }
 }
+
+
+
+@media (max-width:500px) {
+ .cart-item{
+    width: 100% !important;
+    flex-direction: column;
+ }
+
+ .cart-left{
+    margin: 0px !important;
+ }
+
+
+ .cart-wrapper .cart-left {
+    width: 60%;
+    background: var(--hover);
+    margin-top: 50px !important;
+    margin-left: 0px !important;
+
+}
+
+.content{
+    width: 97%;
+    margin: auto !important;
+}
+}
