@@ -614,4 +614,19 @@ padding: 15px;
     width: 97%;
     margin: auto !important;
 }
+
+.cart-wrapper .cart-right {
+    width: 30%;
+    margin-top: 50px !important;
+    margin-left: 0px !important;
+}
+
+.cart-wrapper .cart-right .bottom {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 }
